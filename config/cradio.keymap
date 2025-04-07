@@ -81,10 +81,10 @@
         Symbols {
             display-name = "WIN";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4       &kp N5           &kp NUMBER_6  &kp N7            &kp N8     &kp N9        &kp N0
-&kp EQUAL     &kp AMPERSAND  &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp CARET     &kp SINGLE_QUOTE  &kp MINUS  &kp PLUS      &kp EXCLAMATION
-&kp PIPE      &kp AT         &none           &kp HASH           &kp PERCENT      &kp TILDE     &kp GRAVE         &none      &kp ASTERISK  &kp BACKSLASH
-                                             &none              &kp BACKSPACE    &kp SPACE     &mo 3
+&kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4       &kp N5         &kp NUMBER_6  &kp N7            &kp N8     &kp N9        &kp N0
+&kp EQUAL     &kp AMPERSAND  &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp DOLLAR     &kp CARET     &kp SINGLE_QUOTE  &kp MINUS  &kp PLUS      &kp EXCLAMATION
+&kp PIPE      &kp AT         &none           &kp HASH           &kp PERCENT    &kp TILDE     &kp GRAVE         &none      &kp ASTERISK  &kp BACKSLASH
+                                             &trans             &trans         &trans        &mo 3
             >;
         };
 
