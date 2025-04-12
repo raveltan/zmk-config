@@ -57,6 +57,35 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <26 29>;
         };
+
+        exit {
+            bindings = <&exitvim>;
+            key-positions = <0 1>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <21 22>;
+        };
+
+        focused {
+            bindings = <&kp LC(NUMBER_1)>;
+            key-positions = <20 21>;
+        };
+
+        term {
+            bindings = <&kp LC(GRAVE)>;
+            key-positions = <23 22>;
+        };
+    };
+
+    macros {
+        exitvim: exitvim {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Q &kp ENTER>;
+            label = "EXITVIM";
+        };
     };
 
     keymap {
