@@ -88,6 +88,11 @@
             bindings = <&kp AT>;
             key-positions = <1 2 3>;
         };
+
+        save_all {
+            bindings = <&save_all>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
@@ -103,6 +108,13 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GREATER_THAN>;
             label = "ARROW";
+        };
+
+        save_all: save_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp W &kp A &kp ENTER>;
+            label = "SAVE_ALL";
         };
     };
 
